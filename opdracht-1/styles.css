@@ -1,0 +1,75 @@
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    list-style: none;
+}
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.navbar-one ul {
+    flex: 1;
+    justify-content: space-between;
+}
+
+.navbar-two {
+    justify-content: flex-end;
+}
+
+.navbar-three {
+    justify-content: space-between;
+}
+
+.navbar-four {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; /* Adds some padding around the navbar */
+}
+
+.logo-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-four .list-4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-four .buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+}
+
+.navbar-five {
+    justify-content: space-between;
+}
+
+.navbar-five > ul:first-of-type {
+    flex: 1;
+    justify-content: center;
+}
+
+.navbar-five > ul:last-child {
+    gap: 10px;
+}
